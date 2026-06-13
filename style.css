@@ -5,7 +5,6 @@
   font-family:Arial, sans-serif;
 }
 
-/* BODY */
 body{
   background:#0f0f1a;
   color:white;
@@ -70,6 +69,15 @@ body{
   color:#ccc;
 }
 
+.cta{
+  padding:12px 20px;
+  background:#6d5efc;
+  border:none;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
+
 .hero-image{
   flex:1;
 }
@@ -99,7 +107,7 @@ body{
   border-radius:15px;
 }
 
-/* PRODUCT IMAGE FIX (IMPORTANT) */
+/* PRODUCT */
 .product{
   padding:80px 20px;
   text-align:center;
@@ -108,7 +116,6 @@ body{
 .product img{
   width:100%;
   max-width:900px;
-  height:auto;
   display:block;
   margin:auto;
   border-radius:20px;
@@ -144,6 +151,21 @@ body{
   border:2px solid #6d5efc;
 }
 
+/* TRUST SECTION FIX ⭐ */
+.trust-section{
+  text-align:center;
+  padding:50px 20px;
+}
+
+.trust-section p{
+  display:inline-block;
+  padding:10px 20px;
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:20px;
+  color:#aaa;
+  background:rgba(255,255,255,0.03);
+}
+
 /* FOOTER */
 footer{
   text-align:center;
@@ -151,9 +173,7 @@ footer{
   background:#000;
 }
 
-/* ======================= */
-/* 📱 MOBILE RESPONSIVE FIX */
-/* ======================= */
+/* MOBILE */
 @media (max-width:768px){
 
   .navbar{
@@ -188,10 +208,6 @@ footer{
 
   .hero-text h1{
     font-size:2rem;
-  }
-
-  .product img{
-    width:100%;
   }
 
   .pricing-container{
